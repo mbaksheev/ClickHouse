@@ -257,6 +257,7 @@ namespace ServerSetting
     extern const ServerSettingsUInt64 max_partition_size_to_drop;
     extern const ServerSettingsUInt64 max_part_num_to_warn;
     extern const ServerSettingsUInt64 max_pending_mutations_to_warn;
+    extern const ServerSettingsUInt64 max_threshold_to_warn_for_pending_mutations;
     extern const ServerSettingsUInt64 max_parts_cleaning_thread_pool_size;
     extern const ServerSettingsUInt64 max_remote_read_network_bandwidth_for_server;
     extern const ServerSettingsUInt64 max_remote_write_network_bandwidth_for_server;
